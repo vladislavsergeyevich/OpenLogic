@@ -1,0 +1,67 @@
+.our_clients {
+        padding: 24px 0;
+
+       ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        a {
+            cursor: pointer;
+        }
+        li:hover {
+            filter: grayscale(100%)
+        }
+        .clients {
+            
+            font-family: Arial;
+            color:  #212121;
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: -1px;
+              
+            
+        }
+        .creative_studio {
+            a {
+                display: inline-block;
+                background: url("/images/spritesheet.png") no-repeat -5px -59px;
+                width: 104px;
+                height: 42px;
+            }
+        }
+        .creatif {
+            a {
+                display: inline-block;
+                background: url("/images/spritesheet.png") no-repeat -86px -5px;
+                width: 104px;
+                height: 42px;
+            }
+        }
+        .av_studio {
+            a {
+                display: inline-block;
+                background: url("/images/spritesheet.png")  no-repeat -5px -5px;
+                width: 71px;
+                height: 44px;
+            }
+        }
+        .gofX {
+            a {
+                display: inline-block;
+                background: url("/images/spritesheet.png") no-repeat -5px -111px;
+                width: 71px;
+                height: 29px;
+            }
+        }
+        .leaf_tech {
+            a {
+                display: inline-block;
+                background: url("/images/spritesheet.png") no-repeat -119px -58px;
+                width: 90px;
+                height: 36px;
+            }
+        }
+       }
+       
+}

@@ -1,0 +1,62 @@
+
+.banner {
+   
+            display: flex;
+            flex-direction: row;
+            border-top: 7px solid;  
+
+            picture {
+                background-image: url("/images/LayerSide_1.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 25.0677%;
+
+            }
+            .content {
+                padding: 18.5px 32.1px 26px 32.1px;
+                display: flex;
+                flex-direction: row;
+                background-color: $redColor;
+                width: 74.9323%;           
+                .content_title {
+                    width: 31%;
+                    margin-right: 27px;
+                    h1 {
+                       
+                        font-family: Arial;
+                        color:  #edf2f5;
+                        font-size: $titleFontSize;
+                        font-weight: 400;
+                        letter-spacing: -0.6px;
+                    }
+                }
+                .content_text {
+                    width: 65%;
+                    p {
+                        font-family: Arial;
+                        color:  #222222;
+                        font-size: 11.98px;
+                        font-weight: 400;
+                        line-height: 19.5px;
+                        margin-bottom: 10px;
+                    }
+                    .angles {
+                        display: flex;
+                        justify-content: flex-end;
+                        .fa-angle-left {
+                            color: white;
+                            font-size: 16px;
+                            margin-right: 14px;
+                        }
+                        .fa-angle-right {
+                            color: white;
+                            font-size: 16px; 
+                        }  
+                    }
+                   
+                }
+            }
+    
+    
+}
+

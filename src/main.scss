@@ -1,0 +1,38 @@
+$bodyColor: #f8f9fb;
+$headerColor: #e9edf0;
+$redColor: #ae3b44;
+$navFontSize: 13px;
+$titleFontSize: 24px;
+$mainFontSize: 12px;
+
+
+
+.site_wrapper {
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-image: url("/images/world_map.png");
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   background-position: top;
+}
+
+@import "_breakpoints.scss";
+
+   @import "_reset.scss";
+   @import "_header.scss";
+   @import "_banner.scss";
+   @import "_center_block.scss";
+   @import "_our_clients.scss";
+   @import "_footer.scss";
+
+
+
+@import './modules/_typography.scss';
+@import './modules/_buttons.scss';
+
+
+
+
+

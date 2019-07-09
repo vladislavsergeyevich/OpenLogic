@@ -1,0 +1,8 @@
+.central_block {
+        display: flex;
+        flex-direction: row;
+    
+        @import "_aside.scss";
+        @import "_news.scss";
+   
+}
